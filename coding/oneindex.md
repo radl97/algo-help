@@ -15,3 +15,7 @@ Viszont ez nem működik a nulladik elemre: `K[-1]` nem értelmezett.
 A nulladik eleme a kumulált tömbnek legyen 0. A "tényleges" elemeket egytől indexeljük: `K[1]=T[1]`, `K[2]=T[1]+T[2]`, stb.
 
 Amikor az első és a harmadik elemet (nulladik elem ugye nincs), akkor `K[3]-K[1-1]` értelmezett lesz.
+
+## Általánosítva
+
+Ez máskor is jól jöhet. A Dinamikus Programozási problémáknál sok eset kerülhet elő, amikor az első sort vagy első oszlopot külön kell kezelni. Ezeknél általában megoldható, hogy egy nulladik oszlop vagy nulladik sor bevezetésével egy esetre tudjuk visszavezetni a problémát.
