@@ -17,3 +17,9 @@ Használj beszédesebb neveket.
 Ha értelmes neveket adunk a kódrészeknek, akkor könnyen azonosítható, hogy mit csinál.
 
 Esetleg egy-egy részét a kódnak tesztelés céljából érdemes szeparálni. (Többet majd a `testing` kategóriához írok)
+
+## Számok mindig egészek
+
+Legyél nagyon biztos, hogy tényleg float-ot akarsz használni!
+
+Lassú, és nem megbízható.
