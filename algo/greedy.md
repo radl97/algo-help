@@ -10,6 +10,7 @@ A lokális optimumot választja abban a reményben, hogy ez globális optimumhoz
 Mohó stratégia nem mindig ad optimális megoldást, ezért fontos, hogy be tudjuk bizonyítani (avagy ellenpéldát tudjunk adni), hogy a tervezett algoritmus tényleg optimális megoldást állít elő.
 
 A mohó stratégia elemi:
+
 	1. Fogalmazzuk meg az optimalizációs feladatot úgy, hogy választások sorozatával építjük fel a megoldást.
 	2. Mutassuk meg, hogy mindig van olyan megoldása az eredeti feladatnak, 
 	  amely a mohó választással kezdődik. Ezt mohó választási tulajdonságnak nevezzük.
