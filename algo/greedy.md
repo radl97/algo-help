@@ -11,10 +11,9 @@ Mohó stratégia nem mindig ad optimális megoldást, ezért fontos, hogy be tud
 
 A mohó stratégia elemi:
 
-	1. Fogalmazzuk meg az optimalizációs feladatot úgy, hogy választások sorozatával építjük fel a megoldást.
-	2. Mutassuk meg, hogy mindig van olyan megoldása az eredeti feladatnak, 
-	  amely a mohó választással kezdődik. Ezt mohó választási tulajdonságnak nevezzük.
-	3. Bizonyítsuk be, hogy a mohó választással olyan redukált problémát kapunk, amelynek optimális megoldásához hozzávéve a mohó választást, az eredeti probléma megoldását kapjuk. Ezt optimális részprobléma tulajdonságnak nevezzük.
+1. Fogalmazzuk meg az optimalizációs feladatot úgy, hogy választások sorozatával építjük fel a megoldást.
+2. Mutassuk meg, hogy mindig van olyan megoldása az eredeti feladatnak, amely a mohó választással kezdődik. Ezt mohó választási tulajdonságnak nevezzük.
+3. Bizonyítsuk be, hogy a mohó választással olyan redukált problémát kapunk, amelynek optimális megoldásához hozzávéve a mohó választást, az eredeti probléma megoldását kapjuk. Ezt optimális részprobléma tulajdonságnak nevezzük.
 
 Általában sokféle mohó választás kínálkozik, de nem mindegyik mohó választás eredményez optimális megoldást, ezért fontos, hogy bebizonyítsuk, hogy az adott mohó választás tényleg optimumot eredményez. 
 

@@ -1,12 +1,8 @@
 # Algo help
 
-Tanácsok összegyűjtése algoritmusos versenyeken való jó szerepléshez.
+Ez egy pár tanács algoritmusos versenyeken való jó szerepléshez. Nem csak algoritmusokról akar szólni, hanem valamivel többet akar nyújtani: debuggolás, tesztelés, kisebb trükkök. Azaz a (versenyeken való) fejlesztés folyamatának minél nagyobb darabját le akarom ezzel fedni.
 
-Ez nem csak algoritmusokról akar szólni, hanem valamivel többet akar nyújtani.
-
-A (versenyeken való) fejlesztés folyamatának minél nagyobb darabját le akarom ezzel fedni.
-
-Tehát a fókuszban a következő áll:
+A fókuszban a következő áll:
  - *1-6 óra* hosszú verseny
  - algoritmust kell kódolni
  - (ahol általában) standard bemenetről standard kimenetre kell írni dolgokat
