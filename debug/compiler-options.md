@@ -1,5 +1,7 @@
 # Compiler flagek
 
+[További részletek](https://codeforces.com/blog/entry/15547)
+
 ### `-Wall -Wextra` Kötelezők
 
 Bekapcsolnak nagyon hasznos figyelmeztéteseket, mielőtt lábon lövöd magad egy `if (a = 0)` sorral.
