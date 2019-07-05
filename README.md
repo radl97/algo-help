@@ -8,7 +8,15 @@ A fókuszban a következő áll:
  - (ahol általában) standard bemenetről standard kimenetre kell írni dolgokat
  - lehet (és ezért általában érdemes) C++-ban fejleszteni
 
---- 
+## Tanácsok
+
+Itt bizonyos kategóriák szerint megpróbálom csoportosítani a feladatot.
+
+- [Egy adott feladatot akarok megoldani](problem/index.md)
+- [Automatizálni szeretném a tesztelést](auto/index.md)
+- [Egy bugot keresek a programomban](debugging/index.md)
+
+## Bevezető
 
 Ha rendezetten tudnék gondolkodni:
 
