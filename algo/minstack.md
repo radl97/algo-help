@@ -30,4 +30,6 @@ for (int i = 0; i < N; i++) {
 }
 ```
 
+Várhatóan logN eleme van. Ha nem elég "várhatóan" megcsinálni, bináris kereséssel lehet megtalálni a megfelelő helyet a levágáshoz. Így átlag `loglogN` a frissítés és legrosszabb esetben `logN`.
+
 Ha jól tudom, nem ad nagyságrendi gyorsítást, de annyival lehet gyorsabb egy-egy megoldás, hogy versenyen el lehessen várni.
