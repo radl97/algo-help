@@ -74,3 +74,30 @@ Template-ek nélkül természetesen még rövidebb.
 A `getchar_unlocked()` nem ISO C, azt hiszem, csak GCC-ben van. Valamivel gyorsabb, mint a sima `getchar()`, de mindkettő ugyanazt csinálja.
 
 TODO nem teszteltem! (a kódban lehet elírás)
+
+### saját beolvasás - negatív számok
+
+```
+#define READ c = getchar_unlocked()
+long long read() {
+    char READ;
+    while (c <= ' ') READ;
+    bool sign = false;
+    if (c == '-') { sign = true; READ; }
+    long long r = 0;
+    do {
+        r *= 10;
+        r += c-'0';
+        READ;
+    } while (c > ' ');
+    if (sign) return -r;
+    return r;
+}
+#undef READ
+```
+
+Ez még mindig nem kezeli a + jelet.
+
+Kb. ilyeneket tud értelmezni: `0`, `123`, `01245`, `-123`, `-01`.
+
+Regexszel: `-?[0-9]*`-ot helyesen kezeli, amíg belefér a long long-ba.
